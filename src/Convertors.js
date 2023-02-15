@@ -1,8 +1,8 @@
 import update from 'immutability-helper';
 import { StyleSheet } from 'react-native';
 
-const { DOMParser } = require('xmldom');
-const { XMLSerializer } = require('xmldom');
+const { DOMParser } = require('@xmldom/xmldom');
+const { XMLSerializer } = require('@xmldom/xmldom');
 const shortid = require('shortid');
 
 export function convertToHtmlString(contents, styleList = null) {
